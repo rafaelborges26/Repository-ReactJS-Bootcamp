@@ -4,7 +4,7 @@ import { Title, Form, Repositories, Error } from './styles'
 import { Link } from 'react-router-dom'
 import { FiChevronRight } from 'react-icons/fi'
 import api from '../../services/api'
-import Repository from '../Repository'
+//import Repository from '../Repository'
 
 interface Repository {
     full_name: string
@@ -96,6 +96,5 @@ useEffect(() => {
   
     ) 
 }
-
 
 export default Dashboard
